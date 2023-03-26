@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  height:100vh;
 
 .wrap {
   display: grid;
@@ -10,6 +12,7 @@
   grid-template-rows: repeat(6, 1fr);
   gap: 0.5rem;
   background-color: white;
+  height: 100%;
 }
 
 div {
